@@ -1,0 +1,7 @@
+.project-art.nojorono{background:linear-gradient(135deg,#172b4dbd,#172b4d35),url('ang03430.jpg') center/cover}
+.case-gallery{margin-top:2rem;border-top:1px solid var(--line);padding-top:1.1rem}
+.case-gallery h3{color:var(--navy);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;margin:0 0:.8rem}
+.case-gallery>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.65rem}
+.case-gallery figure{aspect-ratio:4/3;border-radius:6px;margin:0;overflow:hidden;background:#e8edf4}
+.case-gallery img{display:block;height:100%;object-fit:cover;width:100%}
+@media(max-width:650px){.case-gallery>div{grid-template-columns:1fr}}
